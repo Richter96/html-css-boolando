@@ -159,6 +159,10 @@ margin-bottom: 4rem;
 .card:hover .hover_img{
     display: block;
 }
+
+.card:hover .heart {
+    color: var(--bo-red);
+}
 /* #endregion main */
 
 /* #region footer */
