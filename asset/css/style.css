@@ -32,6 +32,10 @@ a {
 .special_price {
     text-decoration: line-through;
 }
+
+.hot_price {
+    color: red;
+}
 /* #endregion commun */
 
 
@@ -74,6 +78,14 @@ a {
     margin: 3rem 0.5rem;
 }
 
+.card {
+    position: relative;
+}
+
 .card img {
     max-width: 100%;
+}
+
+.heart {
+    position: absolute;
 }
