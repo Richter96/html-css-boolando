@@ -88,4 +88,8 @@ a {
 
 .heart {
     position: absolute;
+    padding: 5px 10px;
+    background-color: var(--bo-white);
+    right: 0;
+    top: 10px;
 }
