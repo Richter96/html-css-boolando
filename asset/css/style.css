@@ -70,6 +70,10 @@ body{
     justify-content: space-between;
 }
 
+.size, .user_bag {
+    width: 20%;
+}
+
 #app_header {
     background-color: var(--bo-orange);
 }
@@ -77,14 +81,25 @@ body{
 .nav {
     text-align: center;
     align-items: center;
+    padding: 0.5rem 0;
 }
 
 .logo img {
-    max-width: 25%;
+    max-width: 20%;
 }
-
+.size {
+    color: var(--bo-white);
+    text-align: left;
+}
+.user_bag {
+    text-align: right;
+}
 .user_bag a {
     color: var(--bo-white);
+}
+
+.size li {
+    display: inline;
 }
 
 /* #endregion header */
