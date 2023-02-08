@@ -126,9 +126,16 @@ body{
 .sale {
     background-color: var(--bo-red);
     padding: 0.25rem 0.5rem;
-
-
 }
 
+.hover_img {
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+.card:hover .hover_img{
+    display: block;
+}
 /* #endregion main */
 
