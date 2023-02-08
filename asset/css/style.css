@@ -47,6 +47,11 @@ a {
     background-color: var(--bo-orange);
 }
 
+.nav{
+    text-align: center;
+    align-items: center;
+}
+
 .size a {
     color: var(--bo-white);
 }
@@ -55,7 +60,7 @@ a {
     max-width: 25%;
 }
 
-.shopping_bag a {
+.user_bag a {
     color: var(--bo-white);
 }
 /* #endregion header */
