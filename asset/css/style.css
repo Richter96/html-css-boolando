@@ -28,11 +28,16 @@ a {
     --bo-white:#ffffff;
 
 }
+
+.special_price {
+    text-decoration: line-through;
+}
 /* #endregion commun */
 
 
 
 /* #region debug */
+
 .debug .col {
     background-color: palegoldenrod;
 }
