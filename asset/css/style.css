@@ -55,7 +55,7 @@ body{
 
 /* #region debug */
 
-.debu .col {
+.debug .col {
     background-color: palegoldenrod;
 }
 
@@ -101,8 +101,9 @@ body{
     color: var(--bo-white);
 }
 
-.size li {
+.user_bag li, .size li {
     display: inline;
+    padding-right: 0.5rem;
 }
 
 /* #endregion header */
