@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 :root {
     --bo-orange: #ff6900;
     --bo-footer: #1a1a1a;
@@ -138,4 +142,13 @@ body{
     display: block;
 }
 /* #endregion main */
+
+/* #region footer */
+
+.app_footer {
+    background-color: var(--bo-footer);
+}
+
+/* #endregion footer */
+
 
