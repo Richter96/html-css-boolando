@@ -11,7 +11,15 @@
     margin:auto;
 }
 
-root {
+.r-flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
     --bo-orange:#ff6900;
     --bo-footer:#1a1a1a;
     --bo-green:#008000;
@@ -26,7 +34,7 @@ root {
 
 /* #region debug */
 .debug .nav {
-    background-color: aqua;
+
 }
 
 /* #endregion debug */
@@ -35,7 +43,19 @@ root {
 
 
 /* #region header */
+#app_header {
+    background-color: var(--bo-orange);
+}
 
+.size a {
+    color: var(--bo-white);
+}
 
+.logo img {
+    max-width: 25%;
+}
 
+.shopping_bag a {
+    color: var(--bo-white);
+}
 /* #endregion header */
