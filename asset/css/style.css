@@ -77,6 +77,7 @@ body{
 #app_header {
     background-color: var(--bo-orange);
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
 }
