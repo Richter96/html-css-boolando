@@ -33,8 +33,8 @@ a {
 
 
 /* #region debug */
-.debug .nav {
-
+.debug .col {
+    background-color: palegoldenrod;
 }
 
 /* #endregion debug */
@@ -64,3 +64,11 @@ a {
     color: var(--bo-white);
 }
 /* #endregion header */
+.col {
+    width: calc(100%/12*4);
+    margin: 3rem 0.5rem;
+}
+
+.card img {
+    max-width: 100%;
+}
