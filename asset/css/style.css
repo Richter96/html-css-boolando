@@ -10,12 +10,24 @@
     width: 70%;
     margin:auto;
 }
+
+root {
+    --bo-orange:#ff6900;
+    --bo-footer:#1a1a1a;
+    --bo-green:#008000;
+    --bo-red:#ff0000;
+    --bo-black:#000000;
+    --bo-white:#ffffff;
+
+}
 /* #endregion commun */
 
 
 
 /* #region debug */
-
+.debug .nav {
+    background-color: aqua;
+}
 
 /* #endregion debug */
 
