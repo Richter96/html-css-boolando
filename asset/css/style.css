@@ -112,17 +112,16 @@ body{
 
 .col {
     width: calc((100% / 12) * 4);
+    padding: 0 1rem;
 }
 
 .card {
     position: relative;
-    margin: 0.5rem;
     margin-top: 4rem;
-
 }
 
 .raw {
-margin-bottom: 4rem;
+margin: 3rem -1rem ;
 }
 .card img {
     max-width: 100%;
