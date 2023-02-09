@@ -20,7 +20,6 @@
 
 a {
     text-decoration: none;
-    color: var(--bo-white);
 }
 
 ul {
@@ -98,7 +97,7 @@ body{
 .user_bag {
     text-align: right;
 }
-.user_bag a {
+.nav a {
     color: var(--bo-white);
 }
 
@@ -177,7 +176,8 @@ margin-bottom: 4rem;
     padding: 2rem 0;
 }
 
-#app_footer .container {
+#app_footer .container,
+#app_footer a {
     color: var(--bo-white);
 }
 
