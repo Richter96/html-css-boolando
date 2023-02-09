@@ -163,7 +163,7 @@ margin: 3rem -1rem ;
     display: block;
 }
 
-.card:hover .heart {
+.heart:hover {
     color: var(--bo-red);
 }
 /* #endregion main */
